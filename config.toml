@@ -1,0 +1,25 @@
+baseURL = "http://localhost:1313"
+languageCode = "en-us"
+title = "Your Name - Portfolio"
+theme = ""
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.main]]
+    name = "Experience"
+    url = "/experience/"
+    weight = 4

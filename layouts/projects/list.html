@@ -1,0 +1,25 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+{{ .Content }}
+
+<div class="project-grid">
+    {{ range .Pages }}
+    <div class="project-card">
+        <div class="img-placeholder"></div>
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Params.description | truncate 200 }}</p>
+        <a href="#{{ .File.TranslationBaseName }}" class="read-more">Read More</a>
+    </div>
+    {{ end }}
+</div>
+
+<div class="project-details">
+    {{ range .Pages }}
+    <div id="{{ .File.TranslationBaseName }}" class="project-detail">
+        <h2>{{ .Title }}</h2>
+        {{ .Content }}
+    </div>
+    {{ end }}
+</div>
+{{ end }}

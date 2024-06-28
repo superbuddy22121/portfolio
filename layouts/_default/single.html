@@ -1,0 +1,17 @@
+{{ define "main" }}
+<section class="section">
+    <div class="container">
+        <h1 class="title">{{ .Title }}</h1>
+        <div class="content">
+            {{ .Content }}
+        </div>
+        {{ with .Params.tags }}
+        <div class="tags">
+            {{ range . }}
+            <span class="tag">{{ . }}</span>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
