@@ -38,5 +38,21 @@
     <p>&copy; 2024 Your Name. All rights reserved.</p>
 </footer>
     <script src="/js/main.js"></script>
+    <button id="scroll-to-top" title="Go to top">↑</button>
+    <script>
+        var scrollToTopBtn = document.getElementById("scroll-to-top");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        }
+        scrollToTopBtn.onclick = function() {
+            document.body.scrollTop = 0; 
+            document.documentElement.scrollTop = 0; 
+        }
+    </script>
 </body>
 </html>
