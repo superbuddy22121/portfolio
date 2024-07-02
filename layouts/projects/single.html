@@ -1,0 +1,30 @@
+{{ define "main" }}
+<article class="project">
+    <h1>{{ .Title }}</h1>
+    
+    {{ if .Params.description }}
+    <p class="project-description">{{ .Params.description }}</p>
+    {{ end }}
+    
+    <div class="project-content">
+        {{ .Content }}
+    </div>
+    
+    {{ if .Date }}
+    <p class="project-date">Date: {{ .Date.Format "January 2, 2006" }}</p>
+    {{ end }}
+    
+    {{ if .Params.technologies }}
+    <div class="project-technologies">
+        <h3>Technologies Used:</h3>
+        <ul>
+            {{ range .Params.technologies }}
+            <li>{{ . }}</li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+    
+    <a href="{{ "/projects/" | relURL }}" class="back-link">Back to Projects</a>
+</article>
+{{ end }}
