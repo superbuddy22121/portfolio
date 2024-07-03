@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }}</title>
-    <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
-    <link rel="stylesheet" href="{{ "css/projects.css" | relURL }}">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/projects.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -14,7 +14,7 @@
         {{ block "main" . }}{{ end }}
     </main>
     {{ partial "footer.html" . }}
-    <script src="{{ "js/main.js" | relURL }}"></script>
+    <script src="/js/main.js"></script>
     <button id="scroll-to-top" title="Go to top">^</button>
     <script>
         var scrollToTopBtn = document.getElementById("scroll-to-top");
