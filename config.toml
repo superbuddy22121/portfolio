@@ -1,4 +1,5 @@
 baseURL = "http://localhost:1313"
+baseURL = "https://superbuddy22121.github.io/portfolio/"
 languageCode = "en-us"
 title = "Jon Leaman - Portfolio"
 
