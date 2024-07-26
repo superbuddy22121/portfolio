@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to My Portfolio on Jon Leaman - Portfolio</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/portfolio/</link>
     <description>Recent content in Welcome to My Portfolio on Jon Leaman - Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crafting Lean Applications: AI-Driven Fretboard Visualization</title>
-      <link>http://localhost:1313/projects/fretboardvisualization/</link>
+      <link>http://localhost:1313/portfolio/projects/fretboardvisualization/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/fretboardvisualization/</guid>
+      <guid>http://localhost:1313/portfolio/projects/fretboardvisualization/</guid>
       <description> Role: Ideator, builder, explorer Technologies: Generative AI, Claude 3.5, Javascript, HTML, CSS, OpenAI, Anthropic, ChatGPT Outcome: Single-shot custom web application ready for deployment </description>
     </item>
     <item>
       <title>Cultural Incentive Token</title>
-      <link>http://localhost:1313/projects/incentivetoken/</link>
+      <link>http://localhost:1313/portfolio/projects/incentivetoken/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/incentivetoken/</guid>
+      <guid>http://localhost:1313/portfolio/projects/incentivetoken/</guid>
       <description> Role: Original ideator, leader, technical architect Technologies: Web3, Ethereum, Tokens, Wallets, community building Outcome: Launched web wallet and token, created fair launch mechanism, engaged thousands of colleagues worldwide </description>
     </item>
     <item>
       <title>Innovation Accelerator</title>
-      <link>http://localhost:1313/projects/innovationaccelerator/</link>
+      <link>http://localhost:1313/portfolio/projects/innovationaccelerator/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/innovationaccelerator/</guid>
+      <guid>http://localhost:1313/portfolio/projects/innovationaccelerator/</guid>
       <description> Role: Founder, leader, operator for US East Key Skills: Cross-functional collaboration, operating with ambiguity, operation models, two-pizza teams, culture of innovation Outcome: Hundreds of ideators engaged, supporting ideas from feature requests to new service offerings </description>
     </item>
     <item>
       <title>Puzzle Designer</title>
-      <link>http://localhost:1313/projects/puzzledesign/</link>
+      <link>http://localhost:1313/portfolio/projects/puzzledesign/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/puzzledesign/</guid>
+      <guid>http://localhost:1313/portfolio/projects/puzzledesign/</guid>
       <description> Role: Designer, inventor, creator, craftsman Technologies: CAD, CAM, Machining, Marketing, woodworking, CNC, design Achievements: Critical acclaim, feature on multiple blogs, honorable mention at International Puzzle Party 2020 </description>
     </item>
     <item>
       <title>SnailMailPrint</title>
-      <link>http://localhost:1313/projects/snailmailprint/</link>
+      <link>http://localhost:1313/portfolio/projects/snailmailprint/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/snailmailprint/</guid>
+      <guid>http://localhost:1313/portfolio/projects/snailmailprint/</guid>
       <description> Role: Founder, CEO Key Skills: Leadership, delivering results, operating with ambiguity, creating from 0 to 1 Achievement: MassChallenge honorable mention, price leadership in low-volume print-to-mail service </description>
     </item>
   </channel>
