@@ -2,6 +2,7 @@
 baseURL = "https://superbuddy22121.github.io/portfolio/"
 languageCode = "en-us"
 title = "Jon Leaman - Portfolio"
+publishDir = "public"
 
 [markup.goldmark.renderer]
   unsafe = true

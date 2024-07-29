@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/portfolio/about/</loc>
+    <lastmod>2023-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/projects/fretboardvisualization/</loc>
+    <lastmod>2023-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/projects/incentivetoken/</loc>
+    <lastmod>2023-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/projects/innovationaccelerator/</loc>
+    <lastmod>2023-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/experience/</loc>
+    <lastmod>2023-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/projects/</loc>
+    <lastmod>2023-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/projects/puzzledesign/</loc>
+    <lastmod>2023-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/projects/snailmailprint/</loc>
+    <lastmod>2023-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/</loc>
+    <lastmod>2023-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/portfolio/tags/</loc>
+  </url>
+</urlset>
