@@ -3,7 +3,7 @@ title: "Cultural Incentive Token"
 date: 2023-07-10
 draft: false
 description: "Developed a cryptocurrency token system to celebrate and incentivize Amazonian culture and leadership principles."
-image: "/projects/images/projects/incentivetoken.png"
+image: "/incentivetoken.png"
 # image: "{{ .Site.BaseURL }}images/projects/incentivetoken.png"
 ---
 
